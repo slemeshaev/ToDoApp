@@ -99,13 +99,10 @@
 		66ADEE01260BBDD200A7A866 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				66ADEE02260BBDD200A7A866 /* AppDelegate.swift */,
-				66ADEE04260BBDD200A7A866 /* SceneDelegate.swift */,
-				66ADEE06260BBDD200A7A866 /* ViewController.swift */,
-				66ADEE08260BBDD200A7A866 /* Main.storyboard */,
-				66ADEE0B260BBDD500A7A866 /* Assets.xcassets */,
-				66ADEE0D260BBDD500A7A866 /* LaunchScreen.storyboard */,
-				66ADEE10260BBDD500A7A866 /* Info.plist */,
+				66E8F3CF260D24D1009A1412 /* Model */,
+				66E8F3CE260D24CA009A1412 /* View */,
+				66E8F3CD260D24B9009A1412 /* Controller */,
+				66E8F3CC260D242B009A1412 /* Utilities */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -126,6 +123,41 @@
 				66ADEE26260BBDD500A7A866 /* Info.plist */,
 			);
 			path = ToDoAppUITests;
+			sourceTree = "<group>";
+		};
+		66E8F3CC260D242B009A1412 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				66ADEE02260BBDD200A7A866 /* AppDelegate.swift */,
+				66ADEE04260BBDD200A7A866 /* SceneDelegate.swift */,
+				66ADEE0B260BBDD500A7A866 /* Assets.xcassets */,
+				66ADEE10260BBDD500A7A866 /* Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		66E8F3CD260D24B9009A1412 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66ADEE06260BBDD200A7A866 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66E8F3CE260D24CA009A1412 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66ADEE08260BBDD200A7A866 /* Main.storyboard */,
+				66ADEE0D260BBDD500A7A866 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66E8F3CF260D24D1009A1412 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
-				INFOPLIST_FILE = ToDoApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Utilities/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.zamprog.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
-				INFOPLIST_FILE = ToDoApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Utilities/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.zamprog.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
